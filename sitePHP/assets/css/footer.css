@@ -1,0 +1,14 @@
+.back{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    background-color: #808080;
+    height: 200px;
+    box-shadow: -5px -5px 20px #000000;
+}
+
+.back h2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 2em;
+}

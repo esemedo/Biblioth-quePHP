@@ -1,0 +1,72 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.auteur{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ac2a55;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px #000000;
+    padding: 20px;
+    width: 50%;
+    
+}
+.livre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3dbe48;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px #000000;
+    padding: 20px;
+    width: 50%;
+   
+}
+.auteur h1, .livre h1{
+    color: #ffffff;
+    font-size: 3em;
+}
+.champ{
+    color: #ffffff;
+    font-size: 1.2em;
+   
+}
+#champAuteur, #titre{
+     border: none;
+      border-radius: 20px;
+      width: 70%;
+      height: 30px;
+ }
+
+#resume, #Bio {
+    border-radius: 10px;
+    border: none;
+}
+.valider{
+    padding-top: 10px;
+}
+.button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color:#082144/*#030d1a*/ ;
+    color: #ffffff;
+    box-shadow: -10px -10px 10px black inset ;
+}
+
+.message{
+    color: #ffffff;
+    background-color: #fdbebe;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+#listAuthor{
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+}

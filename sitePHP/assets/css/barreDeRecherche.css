@@ -1,0 +1,19 @@
+#recherche{
+    width: 20%;
+    height:30px ;
+    
+}
+.formulaire{
+    display: flex;
+    align-items:flex-end;
+    flex-direction: column;
+    padding: 40px;
+}
+.button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #082144;
+    color: #ffffff;
+}

@@ -1,0 +1,75 @@
+
+.livre{
+    list-style-type: none;
+}
+.titre{
+    font-size: 2em;
+    font-weight: bold;
+   padding-bottom: 5px;
+}
+
+.container{
+    display: flex;
+}
+.big_container{
+    display: flex;
+    flex-direction: column;
+}
+.livre{
+    flex:3;
+    background-color: #5bc2b9dc;
+    padding: 10px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+.auteur{
+    font-family: cursive, fantasy, sans-serif;
+    padding-top: 10px;
+}
+.edition{
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.supression{
+    padding: 30px;
+}
+.modification{
+    padding: 30px;
+}
+.modification a:hover{
+    color:#000000;
+    box-shadow: 10px 10px 10px #267c2e inset;
+}
+.supression a:hover{
+    color:#000000;
+    box-shadow: 10px 10px 10px  #811f40 inset;
+}
+.separateur{
+    background-color: #b4adadd0;
+    width: 20%;
+    height: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mod{
+    padding: 20px;
+    background-color: #3dbe48;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 50px;
+    color: #ffffff;
+    box-shadow: -10px -10px 10px  #267c2e inset ;
+}
+
+.sup{
+    padding: 20px;
+    background-color: #ac2a55;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    box-shadow: -10px -10px 10px  #811f40 inset ;
+}
